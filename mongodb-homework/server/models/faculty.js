@@ -65,6 +65,11 @@ const facultySchema = new mongoose.Schema({
   },
 });
 
-const Faculty = mongoose.model('Faculty', facultySchema);
+// const Faculty = mongoose.model('Faculty', facultySchema);
 
-module.exports = Faculty;
+// module.exports = Faculty;
+
+
+const FacultyMember = mongoose.model('FacultyMember', facultySchema);
+
+module.exports = FacultyMember;
